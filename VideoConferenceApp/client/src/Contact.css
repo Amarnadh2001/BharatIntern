@@ -1,0 +1,107 @@
+/* ... your existing styles ... */
+.contact-container {
+    padding: 40px;
+    background-color: #f9f9f9;  
+    padding-bottom: 150px;
+    text-align: center;
+    background-image: url('https://www.silcharmunicipality.in/wp-content/uploads/2021/03/contact-us-banner.jpg');
+    background-size:500px 550px; /*Adjust the size of the pattern*/
+    background-repeat: repeat;
+  }
+  
+  .contact-container h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .contact-container p {
+    font-weight: bolder;
+    font-size: 18px;
+    color:black;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color:green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }/* ... your existing styles ... */
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Initial opacity to make it fade in */
+    transform: translateY(20px); /* Initial translation to create an entrance effect */
+    animation: fadeInUp 0.5s ease-out forwards; /* Animation to fade in and slide up */
+  }
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    text-align: center;
+  }
+  
+  .popup p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .popup button {
+    background-color:coral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .contact-container h1 {
+    font-size: 32px;
+    color:aqua;
+    animation: blink 1.5s infinite; /* Apply the blink animation */
+  }
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+   @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

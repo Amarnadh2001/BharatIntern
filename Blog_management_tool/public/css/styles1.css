@@ -1,0 +1,82 @@
+/* Header styles */
+header {
+    background-color:#333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Main styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* About content styles */
+.about-content {
+    margin-bottom: 2rem;
+}
+
+.about-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    line-height: 1.6;
+}
+
+/* Team members styles */
+.team-members {
+    border-top: 1px solid #ccc;
+    padding-top: 2rem;
+}
+
+.team-members h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.team-members ul {
+    list-style: none;
+}
+
+.team-members li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+footer p {
+    display: flex;
+    align-items: center;
+}
+
+.centered-image {
+    margin-left: 10px; /* Add spacing between text and image */
+}
+.blinking-text {
+    animation: blink 1s infinite;
+    color:deeppink;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+

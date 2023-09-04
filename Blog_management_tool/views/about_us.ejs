@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/css/styles1.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <main>
+        <section class="about-content">
+            <h2>Our Story</h2>
+            <p><%= aboutContent %></p>
+        </section>
+        <section class="team-members">
+            <h2>Our Team</h2>
+            <ul class="blinking-text">
+                <% teamMembers.forEach(member => { %>
+                    <li><%= member.name %> - <%= member.role %></li>
+                <% }); %>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p style="margin-left: 520px;">&copy; 2023 Your <img src="https://freepngimg.com/save/11527-blogging-picture/640x320" width="100px" height="40px" class="centered-image"/></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+.confirmation {
+    color:purple;
+    margin-top: 1rem;
+}
+
+/* Header styles */
+header {
+    background-color:mediumturquoise;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Main styles */
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnlOtQ31mG0KVbhRMc87QL1VxRiXRtQ6FdW0j4Tjalb0YCKdtkiXa1Zl0OOApRW8F5YC8&usqp=CAU');
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.contact-form {
+    margin-top: 1rem;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+button {
+    background-color:yellow;
+    color:black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:orange;
+}
+footer p {
+    display: flex;
+    align-items: center;
+}
+
+.centered-image {
+    margin-left: 10px; /* Add spacing between text and image */
+}
