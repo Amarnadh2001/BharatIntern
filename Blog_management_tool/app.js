@@ -4,7 +4,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const Blog = require("./models/blog");
-mongoose.connect("mongodb+srv://blog_management_tool:<password>@cluster0.oyzawjb.mongodb.net/?retryWrites=true&w=majority").then(() => {
+mongoose.connect("mongodb+srv://blog_management_tool:blog_management_tool@cluster0.oyzawjb.mongodb.net/?retryWrites=true&w=majority").then(() => {
     console.log('database connected');
 }).catch((err) => {
     console.log(err);
